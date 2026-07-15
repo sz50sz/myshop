@@ -19,7 +19,6 @@ export default function Header({ cart }) {
           <span className="site-header__cart-badge">{cartCount}</span>
         </Link>
       </div>
-      <p className="site-header__lead">header部分は、自由にデザインしてください。</p>
     </header>
   );
 }
