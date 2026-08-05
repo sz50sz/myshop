@@ -1,5 +1,6 @@
 // src/components/ItemCard.jsx
 import { Link } from "react-router-dom";
+import Heart from "../assets/heart.svg?react";
 
 export default function ItemCard({ item, favorites, cart }) {
   const handleFavorite = (e) => {
@@ -35,7 +36,7 @@ export default function ItemCard({ item, favorites, cart }) {
         }
         onClick={handleFavorite}
       >
-        ♡
+        <Heart className="heart-icon" />
       </button>
 
       <button

@@ -3,7 +3,7 @@
     {
       "id": "001",
       "name": "MacBook Air M3",
-      "image": "/images/item-dammy.webp",
+      "image": "./images/image01.jpg",
       "price": 164800,
       "category": "ガジェット",
       "description": "毎日使ってる相棒。軽くて持ち運びやすい。",
